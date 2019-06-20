@@ -1,0 +1,183 @@
+.header img{
+  float:left;
+}
+.header
+{
+    
+    position:fixed;
+    overflow:hidden;
+    width:100%;
+    z-index:1;
+    top:0%;
+    background-color:#777;
+    
+}
+.header li{
+    display:inline;
+    padding-right:30px;
+    text-decoration: none;
+    float:right;
+    
+}
+h1{
+    
+    text-align:top;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/anurag.jpg");
+    height: 500px;
+    margin-top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+ 
+ 
+  *{
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 500px;
+    margin-top: 80px;
+    padding: 100px;
+    height: 500px; 
+     
+    text-align: center;
+    image
+    /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color:#FFFFFF;
+    padding: 10px;
+    margin-top: 50px;
+    grid-column-end: unset;
+    
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #FFFFFF(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .flex-container {
+    display:flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding-left: 50px;
+    
+    
+  }
+  
+  .flex-container > div {
+    background-color:#FFFFFF;
+    width: 500px;
+    margin: 10px;
+    margin-left:10px;
+    margin-right:10px
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    ont-family: 'Handlee', cursive;
+  }
+  .footer
+  {
+      left:0;
+      bottom:0;
+      width:100%;
+      background-color: cadetblue;
+      color:white;
+      text-align:center;
+      font-family:cursive;
+      
+
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    text-align:center;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
